@@ -64,21 +64,3 @@ If you want to see all nodes use
 rtq_graph
 rosnode list
 ```
-@InProceedings{10.1007/978-3-642-25486-4_56,
-author="Andaluz, Victor H.
-and Roberti, Flavio
-and Toibero, Juan Marcos
-and Carelli, Ricardo
-and Wagner, Bernardo",
-editor="Jeschke, Sabina
-and Liu, Honghai
-and Schilberg, Daniel",
-title="Adaptive Dynamic Path Following Control of an Unicycle-Like Mobile Robot",
-booktitle="Intelligent Robotics and Applications",
-year="2011",
-publisher="Springer Berlin Heidelberg",
-address="Berlin, Heidelberg",
-pages="563--574",
-abstract="This work presents a new adaptive dynamic control to solve the path following problem for the unicycle-like mobile robot. First, it is proposed a dynamic modeling of a unicycle-like mobile robot where it is considered that its mass center is not located at the center the wheels' axle. Then, the design of the control algorithm is presented. This controller design is based on two cascaded subsystems: a kinematic controller with command saturation, and an adaptive dynamic controller that compensates the dynamics of the robot. Stability and robustness are proved by using Lyapunov's method. Experimental results show a good performance of the proposed controller as proved by the theoretical design.",
-isbn="978-3-642-25486-4"
-}
