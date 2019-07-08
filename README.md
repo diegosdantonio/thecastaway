@@ -1,5 +1,8 @@
 # The Castaway problem
 
+## Bibliographic references
+Andaluz, V.H, Roberti, F., Toibero, J.M., Carelli, R., Wagner, B.: Adaptive dynamic path following control of an unicycle like mobile robot. In: Intelligent Robotics and Applications, chapter 56, pp 563–574. Springer, Berlin (2011)
+
 ## Install ROS Kinetic
 
 Using Ubuntu 14.04 install ROS Kinetic:
