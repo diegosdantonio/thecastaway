@@ -32,3 +32,35 @@ Check if the package can be found by rospack
 ```bash
 rospack find stage_controllers
 ```
+Is necessary install catkin and create package with your preferred name
+```bash
+cd ~/catckin_ws/src
+catkin_create_pkg name_pack std_msgs rospy roscpp geometry_msgs tf
+```
+move folder scripts and launch to new folder created, and make programm
+```bash
+catkin_make
+```
+Launch all node
+```bash
+rosmake source_code
+```
+
+## Run program
+First run roscore
+```bash
+roscore
+```
+For the initialization of 2D environment 
+```bash
+rosrun stage_ros stageros ra1.cfg
+```
+Launch all node
+```bash
+roslaunch source_program thecastaway_launcher.launch
+```
+If you want to see all nodes use
+```bash
+rtq_graph
+rosnode list
+```
