@@ -5,13 +5,20 @@
 Using Ubuntu 14.04 install ROS Kinetic:
 
 First, make sure your Debian package index is up-to-date:
+
 ```bash
 sudo apt-get update
-sudo apt-get install ros-kinetic-desktop-full
 ```
 
 Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception
+
 ```bash
-sudo apt-get update
 sudo apt-get install ros-kinetic-desktop-full
 ```
+
+Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS.
+```bash
+sudo rosdep init
+rosdep update
+```
+It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched:
