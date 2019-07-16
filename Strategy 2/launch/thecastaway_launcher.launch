@@ -1,0 +1,5 @@
+<launch>
+    <node name="skark" pkg="prueba2" type="shark_script.py" output="screen"/>
+    <node name="castaway" pkg="prueba2" type="castaway_script.py" output="screen">
+    </node>
+</launch>
